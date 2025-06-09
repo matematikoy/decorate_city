@@ -1,0 +1,9 @@
+{
+  "name": "decorate_city",
+  "version": "0.1",
+  "label": "decorate_city",
+  "description": "Allows players to decorate their cities.",
+  "dependencies": ["0ad"],
+  "type": "mod",
+  "uuid": "a3bbdbf1-1337-4f35-b4d7-pavementmod0001"
+}
