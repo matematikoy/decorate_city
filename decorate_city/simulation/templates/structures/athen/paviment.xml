@@ -6,6 +6,6 @@
     <Icon>structures/paviment.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/hellenes/paviment.xml</Actor>
+    <Actor>props/structures/decals/paviment_decal.xml</Actor>
   </VisualActor>
 </Entity>

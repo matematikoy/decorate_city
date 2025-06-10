@@ -1,4 +1,4 @@
-<Entity parent="template_structure_resource">
+<Entity parent="template_decorate_paviment">
   <Cost>
     <BuildTime>0</BuildTime>
     <Resources>
@@ -6,25 +6,21 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="28.0" depth="28.0"/>
+    <Square width="9.0" depth="9.0"/>
     <Height>2.0</Height>
   </Footprint>
   <Health>
     <Max>250</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_field</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_paviment</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Pavimento</GenericName>
     <SelectionGroupName>template_structure_resource_field</SelectionGroupName>
-    <VisibleClasses datatype="tokens">Civic Structure Pavimento</VisibleClasses>
+    <VisibleClasses datatype="tokens">Civic Pavimento</VisibleClasses>
     <Tooltip>Decorative pavement tile.</Tooltip>
     <Icon>structures/paviment.png</Icon>
   </Identity>
-  <Obstruction>
-    <Static width="22.0" depth="22.0"/>
-    <BlockMovement>false</BlockMovement>
-    <BlockPathfinding>false</BlockPathfinding>
-  </Obstruction>
+
   <Resistance>
     <Entity>
       <Damage>
@@ -40,14 +36,12 @@
       <constructed>interface/complete/building/complete_field.xml</constructed>
     </SoundGroups>
   </Sound>
-  <StatusBars>
-    <HeightOffset>8.0</HeightOffset>
-  </StatusBars>
+
   <Vision>
     <Range>0</Range>
   </Vision>
   <VisualActor>
-    <FoundationActor>structures/plot_field_found.xml</FoundationActor> <!-- ou seu actor de fundação -->
+    <FoundationActor>props/structures/decals/paviment_dirt_small.xml</FoundationActor>
     <SelectionShape>
       <Footprint/>
     </SelectionShape>
