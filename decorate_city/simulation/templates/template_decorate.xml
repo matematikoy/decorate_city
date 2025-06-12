@@ -4,7 +4,7 @@
   <BuildRestrictions>
     <PlacementType>land</PlacementType>
     <Territory>own ally neutral enemy</Territory>
-    <Category>Structure</Category>
+    <Category>Decorative</Category>
   </BuildRestrictions>
   <Capturable>
     <CapturePoints>500</CapturePoints>
@@ -44,7 +44,7 @@
   <Identity>
     <Civ>gaia</Civ>
     <GenericName>Structure</GenericName>
-    <Classes datatype="tokens">Structure</Classes>
+    <Classes datatype="tokens">Decorative</Classes>
     <Undeletable>false</Undeletable>
   </Identity>
   <Loot>
@@ -55,18 +55,17 @@
     <xp>0</xp>
   </Loot>
   <Looter/>
-  <Minimap>
-    <Type>structure</Type>
-  </Minimap>
+
   <Obstruction>
-    <Active>true</Active>
+    <Static width="2.0" depth="2.0"/>
+    <Active>false</Active>
     <BlockMovement>false</BlockMovement>
     <BlockPathfinding>false</BlockPathfinding>
     <BlockFoundation>false</BlockFoundation>
     <BlockConstruction>false</BlockConstruction>
-    <DisableBlockMovement>true</DisableBlockMovement>
-    <DisableBlockPathfinding>true</DisableBlockPathfinding>
-    <DeleteUponConstruction>true</DeleteUponConstruction>
+    <DisableBlockMovement>false</DisableBlockMovement>
+    <DisableBlockPathfinding>false</DisableBlockPathfinding>
+    <DeleteUponConstruction>false</DeleteUponConstruction>
   </Obstruction>
   <OverlayRenderer/>
   <Ownership/>
@@ -126,7 +125,7 @@
       <Outline>
         <LineTexture>outline_border.png</LineTexture>
         <LineTextureMask>outline_border_mask.png</LineTextureMask>
-        <LineThickness>0.4</LineThickness>
+        <LineThickness>0.1</LineThickness> <!-- Mudar a cor, para branco ou amarelo claro -->
       </Outline>
     </Overlay>
   </Selectable>
@@ -142,10 +141,19 @@
       <focus_fire>attack/weapon/bow_launch_building.xml</focus_fire>
     </SoundGroups>
   </Sound>
+  
   <StatusBars>
-    <BarWidth>6.0</BarWidth>
-    <BarHeight>0.6</BarHeight>
-    <HeightOffset>12.0</HeightOffset>
+    <BarWidth>0.0</BarWidth>
+    <BarHeight>0.0</BarHeight>
+    <HeightOffset>0.0</HeightOffset>
+    <ShowHealth>false</ShowHealth>
+    <ShowUpgrade>false</ShowUpgrade>
+    <ShowPack>false</ShowPack>
+    <ShowExperience>false</ShowExperience>
+    <ShowCapture>false</ShowCapture>
+    <ShowSupply>false</ShowSupply>
+    <ShowRank>false</ShowRank>
+    <ShowAuras>false</ShowAuras>
   </StatusBars>
   <StatusEffectsReceiver/>
   <TerritoryDecay>

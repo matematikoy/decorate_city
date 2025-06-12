@@ -2,7 +2,10 @@
   <Cost>
     <BuildTime>0</BuildTime>
     <Resources>
-      <wood>1</wood>
+      <wood>0</wood>
+      <stone>10</stone>
+      <metal>0</metal>
+      <food>0</food>
     </Resources>
   </Cost>
   <Footprint>
@@ -16,7 +19,8 @@
   <Identity>
     <GenericName>Pavimento</GenericName>
     <SelectionGroupName>template_structure_resource_field</SelectionGroupName>
-    <VisibleClasses datatype="tokens">Civic Pavimento</VisibleClasses>
+    <VisibleClasses datatype="tokens">Decorative</VisibleClasses>
+    <Classes datatype="tokens">Decorative</Classes>
     <Tooltip>Decorative pavement tile.</Tooltip>
     <Icon>structures/paviment.png</Icon>
   </Identity>

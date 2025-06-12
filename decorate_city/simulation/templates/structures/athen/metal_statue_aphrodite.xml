@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_statue_discobolus">
+
+  <Cost>
+    <BuildTime>120</BuildTime>
+    <Resources>
+      <wood>500</wood>
+      <stone>1500</stone>
+      <metal>800</metal>
+      <food>0</food>
+    </Resources>
+  </Cost>
+
+  <Identity>
+    <Civ>athen</Civ>
+    <SpecificName>Aphrodítē</SpecificName>
+    <VisibleClasses datatype="tokens">Estatua</VisibleClasses>
+    <Icon>structures/aphrodite.png</Icon>
+    <Tooltip>A Estátua da Afrodite emana bençãos divinas que aprimoram suas habilidades.</Tooltip>
+  </Identity>
+  
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>10</Hack>
+        <Pierce>20</Pierce>
+        <Crush>8</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <StatusBars>
+    <BarWidth>6.0</BarWidth>
+    <BarHeight>0.6</BarHeight>
+    <HeightOffset>20.0</HeightOffset>
+    <ShowHealth>true</ShowHealth>
+    <ShowUpgrade>true</ShowUpgrade>
+    <ShowPack>false</ShowPack>
+    <ShowExperience>true</ShowExperience>
+    <ShowCapture>true</ShowCapture>
+    <ShowSupply>true</ShowSupply>
+    <ShowRank>true</ShowRank>
+    <ShowAuras>true</ShowAuras>
+  </StatusBars>
+
+  <Auras datatype="tokens">
+    structures/aphrodite_buff_aura_properties
+  </Auras>
+
+  <VisualActor>
+    <Actor>props/special/eyecandy/statue_aphrodite_huge_pedastal.xml</Actor>
+  </VisualActor>
+</Entity>

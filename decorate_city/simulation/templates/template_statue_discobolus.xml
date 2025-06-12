@@ -1,0 +1,48 @@
+<Entity parent="template_decorate_statue">
+  <Cost>
+    <BuildTime>120</BuildTime>
+    <Resources>
+      <wood>1000</wood>
+    </Resources>
+  </Cost>
+  <Footprint>
+    <Square width="9.0" depth="9.0"/>
+    <Height>1000.0</Height>
+  </Footprint>
+  <Health>
+    <Max>1000</Max>
+    <SpawnEntityOnDeath>decay|rubble/rubble_paviment</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <GenericName>Estatua</GenericName>
+    <SelectionGroupName>template_structure_resource_field</SelectionGroupName>
+    <VisibleClasses datatype="tokens">Decorativo Estatua</VisibleClasses>
+    <Tooltip>Decorative Object</Tooltip>
+  </Identity>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>4</Hack>
+        <Pierce>40</Pierce>
+        <Crush>5</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Sound>
+    <SoundGroups>
+      <select>interface/select/building/sel_field.xml</select>
+      <constructed>interface/complete/building/complete_field.xml</constructed>
+    </SoundGroups>
+  </Sound>
+
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+  <VisualActor>
+    <FoundationActor>props/structures/decals/paviment_dirt_small.xml</FoundationActor>
+    <SelectionShape>
+      <Footprint/>
+    </SelectionShape>
+  </VisualActor>
+</Entity>

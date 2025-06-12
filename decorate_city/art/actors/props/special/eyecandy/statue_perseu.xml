@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>props/statue_perseu.dae</mesh>
+      <textures>
+        <texture file="props/Image_0.png" name="baseTex"/>
+        <texture file="props/Image_0_spec.png" name="specTex"/>
+        <texture file="props/Image_0_norm.png" name="normTex"/>
+        <texture file="props/ao/Image_0_ambient.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>no_trans_ao_parallax_spec.xml</material>
+</actor>
