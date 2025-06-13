@@ -1,0 +1,15 @@
+{
+    "type": "range",
+    "radius": 80,
+    "affectedPlayers": ["Enemy"],
+    "affects": ["Soldier"],
+    "modifications": [
+        { "value": "UnitMotion/WalkSpeed", "multiply": 0.7 },
+        { "value": "UnitMotion/RunSpeed", "multiply": 0.7 },
+        { "value": "Attack/Melee/RepeatTime", "multiply": 1.3 },
+        { "value": "Attack/Ranged/RepeatTime", "multiply": 1.3 }
+    ],
+    "auraName": "Slow Petrification",
+    "auraDescription": "Enemy units within the radius have their movement and attack speed reduced by 30%.",
+    "overlayIcon": "art/textures/ui/session/auras/slow_aura.png"
+}

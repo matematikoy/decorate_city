@@ -2,7 +2,7 @@
 <Entity parent="template_statue_discobolus">
 
   <Cost>
-    <BuildTime>120</BuildTime>
+    <BuildTime>0</BuildTime>
     <Resources>
       <wood>500</wood>
       <stone>1500</stone>
@@ -16,7 +16,7 @@
     <SpecificName>Aphrodítē</SpecificName>
     <VisibleClasses datatype="tokens">Estatua</VisibleClasses>
     <Icon>structures/aphrodite.png</Icon>
-    <Tooltip>A Estátua da Afrodite emana bençãos divinas que aprimoram suas habilidades.</Tooltip>
+    <Tooltip>The Statue of Aphrodite, Goddess of Fertility, emanates fertility throughout the land.</Tooltip>
   </Identity>
   
   <Resistance>
@@ -46,6 +46,10 @@
   <Auras datatype="tokens">
     structures/aphrodite_buff_aura_properties
   </Auras>
+
+  <Vision>
+    <Range>110</Range>
+  </Vision>
 
   <VisualActor>
     <Actor>props/special/eyecandy/statue_aphrodite_huge_pedastal.xml</Actor>

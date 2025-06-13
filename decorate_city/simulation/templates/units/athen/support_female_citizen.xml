@@ -8,9 +8,14 @@
 
   <Builder>
     <Entities datatype="tokens">
-      structures/athen/house structures/athen/farmstead structures/athen/storehouse
-      structures/athen/civil_centre structures/athen/field structures/athen/corral
-      structures/athen/paviment structures/athen/metal_statue_discobolus structures/athen/metal_statue_aphrodite structures/athen/metal_statue_perseu
+      structures/athen/house
+      structures/athen/farmstead
+      structures/athen/storehouse
+      structures/athen/civil_centre
+      structures/athen/field
+      structures/athen/corral
+      structures/athen/metal_statue_aphrodite
+      structures/athen/metal_statue_perseu
     </Entities>
   </Builder>
 

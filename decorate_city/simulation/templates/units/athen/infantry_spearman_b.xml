@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="civ/athen|hoplite|template_unit_infantry_melee_spearman">
+  <Identity>
+    <SelectionGroupName>units/athen/infantry_spearman_b</SelectionGroupName>
+    <GenericName>Athenian Hoplite</GenericName>
+    <SpecificName>Hoplítēs Athēnaîos</SpecificName>
+    <Icon>units/athen/infantry_spearman.png</Icon>
+  </Identity>
+
+  <Builder>
+    <Entities datatype="tokens">
+      structures/athen/house
+      structures/athen/farmstead
+      structures/athen/storehouse
+      structures/athen/civil_centre
+      structures/athen/field
+      structures/athen/corral
+      structures/athen/metal_statue_aphrodite
+      structures/athen/metal_statue_perseu
+    </Entities>
+  </Builder>
+
+  <Promotion>
+    <Entity>units/athen/infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/athenians/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

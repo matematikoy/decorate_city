@@ -2,7 +2,7 @@
 <Entity parent="template_statue_discobolus">
 
   <Cost>
-    <BuildTime>120</BuildTime>
+    <BuildTime>0</BuildTime>
     <Resources>
       <wood>500</wood>
       <stone>1500</stone>
@@ -11,12 +11,17 @@
     </Resources>
   </Cost>
 
+  <Footprint>
+    <Square width="5.0" depth="5.0"/>
+    <Height> 500.0</Height>
+  </Footprint>
+
   <Identity>
     <Civ>athen</Civ>
-    <SpecificName>Perseu</SpecificName>
+    <SpecificName>Perséus</SpecificName>
     <VisibleClasses datatype="tokens">Estatua</VisibleClasses>
     <Icon>structures/perseu.png</Icon>
-    <Tooltip>A Estátua da Afrodite emana bençãos divinas que aprimoram suas habilidades.</Tooltip>
+    <Tooltip>The Statue of Perseus, the Vanquisher of the Gorgon, exudes a petrifying terror that drains the speed and ferocity of his enemies.</Tooltip>
   </Identity>
   
   <Resistance>
@@ -44,10 +49,14 @@
   </StatusBars>
 
   <Auras datatype="tokens">
-    structures/aphrodite_buff_aura_properties
+    structures/perseu_debuff_aura_properties
   </Auras>
 
+  <Vision>
+    <Range>80</Range>
+  </Vision>
+
   <VisualActor>
-    <Actor>props/special/eyecandy/statue_perseu_pedastal.xml</Actor>
+    <Actor>props/special/eyecandy/statue_perseu.xml</Actor>
   </VisualActor>
 </Entity>

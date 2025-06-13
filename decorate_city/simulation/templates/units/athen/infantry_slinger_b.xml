@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="civ/athen|template_unit_infantry_ranged_slinger">
+  <Identity>
+    <SelectionGroupName>units/athen/infantry_slinger_b</SelectionGroupName>
+    <GenericName>Athenian Slinger Militia</GenericName>
+    <SpecificName>Psilòs Athēnaîos</SpecificName>
+    <Icon>units/athen/infantry_slinger.png</Icon>
+  </Identity>
+
+  <Builder>
+    <Entities datatype="tokens">
+      structures/athen/house
+      structures/athen/farmstead
+      structures/athen/storehouse
+      structures/athen/civil_centre
+      structures/athen/field
+      structures/athen/corral
+      structures/athen/metal_statue_aphrodite
+      structures/athen/metal_statue_perseu
+    </Entities>
+  </Builder>
+  <Promotion>
+    <Entity>units/athen/infantry_slinger_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/athenians/infantry_slinger_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -37,6 +37,9 @@
     <Classes datatype="tokens">FemaleCitizen</Classes>
     <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
   </Identity>
+
+
+
   <Loot>
     <xp>3</xp>
     <food>5</food>
