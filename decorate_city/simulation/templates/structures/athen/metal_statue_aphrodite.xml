@@ -2,11 +2,11 @@
 <Entity parent="template_statue_discobolus">
 
   <Cost>
-    <BuildTime>0</BuildTime>
+    <BuildTime>120</BuildTime>
     <Resources>
-      <wood>500</wood>
-      <stone>1500</stone>
-      <metal>800</metal>
+      <wood>600</wood>
+      <stone>1000</stone>
+      <metal>1500</metal>
       <food>0</food>
     </Resources>
   </Cost>

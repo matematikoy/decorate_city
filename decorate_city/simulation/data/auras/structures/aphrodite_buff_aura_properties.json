@@ -3,7 +3,7 @@
 	"affects": ["Worker"],
     "affectedPlayers": ["MutualAlly"],
     "modifications": [
-        { "value": "Cost/BuildTime", "multiply": 0.01 }
+        { "value": "Cost/BuildTime", "multiply": 0.6 }
     ],
     "auraName": "Goddess of Fertility",
     "auraDescription": "Land fertility is increased, reducing worker training time by 40%."
