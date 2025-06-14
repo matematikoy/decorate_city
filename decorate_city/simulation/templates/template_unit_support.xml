@@ -5,13 +5,7 @@
     <VisibleClasses datatype="tokens">Support</VisibleClasses>
     <GenericName>Support</GenericName>
   </Identity>
-  <Builder>
-    <Entities datatype="tokens">
 
-      structures/athen/paviment
-
-    </Entities>
-  </Builder>
   
   <Minimap>
     <Type>support</Type>

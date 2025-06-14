@@ -38,7 +38,13 @@
     <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
   </Identity>
 
+  <Builder>
+    <Entities datatype="tokens">
 
+      structures/athen/paviment
+
+    </Entities>
+  </Builder>
 
   <Loot>
     <xp>3</xp>
